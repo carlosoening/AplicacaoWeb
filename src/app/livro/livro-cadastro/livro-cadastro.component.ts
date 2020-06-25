@@ -27,6 +27,10 @@ export class LivroCadastroComponent implements OnInit {
   }
 
   salvar() {
-     this.livroService.salvar(this.livro).subscribe(() => this.router.navigate(['livro-lista']), e => console.log(e));
+     if (this.livro.titulo && this.livro.autor && this.livro.qtdPaginas && this.livro.preco && this.livro.descricao) {
+      this.livroService.salvar(this.livro).subscribe(() => this.router.navigate(['livro-lista']), e => console.log(e));
+     } else {
+       return
+     }
   }
 }

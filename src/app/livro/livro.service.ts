@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
-import { of } from 'rxjs';
 import { Livro } from './livro.interface';
 
 const url = 'http://localhost:8080/api/resources/livros'

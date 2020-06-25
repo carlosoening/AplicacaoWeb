@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component';
 import { LivroListagemComponent } from './livro/livro-listagem/livro-listagem.component';
 import { LivroCadastroComponent } from './livro/livro-cadastro/livro-cadastro.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './login/login-component/login.component';
 import { FormsModule } from '@angular/forms';
 import { LivroEditarComponent } from './livro/livro-editar/livro-editar.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CadastroUsuarioComponent } from './login/cadastro-usuario/cadastro-usuario.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     LivroListagemComponent,
     LivroCadastroComponent,
     LoginComponent,
-    LivroEditarComponent
+    LivroEditarComponent,
+    CadastroUsuarioComponent
   ],
   imports: [
     BrowserModule,

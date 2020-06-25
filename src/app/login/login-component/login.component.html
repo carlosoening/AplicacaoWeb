@@ -1,0 +1,20 @@
+<div class="container">
+   <h1>Fazer Login</h1>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Username</label>
+          <input type="text" class="form-control" name="username" id="inputUsername" [(ngModel)]="usuario.username">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Senha</label>
+          <input type="password" class="form-control"  name="senha" id="inputPassword" [(ngModel)]="usuario.senha">
+          <p style="color: red" *ngIf="invalid">Usuário ou senha inválida</p>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Mantenha-me conectado</label>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="validarUsuario()">Entrar</button><br/><br/>
+        <button type="submit" class="btn btn-secondary" (click)="navegar()">Ou Cadastre-se</button>
+      </form>
+</div>
