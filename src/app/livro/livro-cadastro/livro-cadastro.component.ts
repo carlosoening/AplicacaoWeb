@@ -27,6 +27,6 @@ export class LivroCadastroComponent implements OnInit {
   }
 
   salvar() {
-     this.livroService.salvar(this.livro).subscribe(() => this.router.navigate(['livro-lista']));
+     this.livroService.salvar(this.livro).subscribe(() => this.router.navigate(['livro-lista']), e => console.log(e));
   }
 }

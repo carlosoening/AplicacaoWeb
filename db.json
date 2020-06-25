@@ -1,0 +1,36 @@
+{
+  "livros": [
+    {
+      "id": 2,
+      "titulo": "As crônicas de Nárnia: A Cadeira de Prata",
+      "autor": "C. S. Lewis",
+      "qtdPaginas": 100,
+      "descricao": "A Cadeira de Prata",
+      "preco": 20
+    },
+    {
+      "id": 3,
+      "titulo": "As crônicas de Nárnia: O Cavalo e Seu Menino",
+      "autor": "C. S. Lewis",
+      "qtdPaginas": 100,
+      "descricao": "O Cavalo e Seu Menino",
+      "preco": 20
+    },
+    {
+      "id": 4,
+      "titulo": "As crônicas de Nárnia: A Viagem do Peregrino da Alvorada",
+      "autor": "C. S. Lewis",
+      "qtdPaginas": 100,
+      "descricao": "A Viagem do Peregrino da Alvorada",
+      "preco": 20
+    },
+    {
+      "titulo": "Teste",
+      "autor": "Carlos",
+      "qtdPaginas": 311,
+      "descricao": "Testteteteteadaw",
+      "preco": 19.99,
+      "id": 5
+    }
+  ]
+}

@@ -9,9 +9,9 @@
               <h5 class="card-title">{{livro.titulo}}</h5>
               <p class="card-text">{{livro.autor}}</p>
               <p class="card-text">{{livro.descricao}}</p>
-              <h4 class="card-text">R${{livro.preco}}</h4>
+              <h4 class="card-text">{{livro.preco | currency: 'R$'}}</h4>
               <br>
-              <a class="btn btn-primary">Editar</a>
+              <a class="btn btn-primary" [routerLink]="['/editar', livro.id]">Editar</a>
               &nbsp;
               <a class="btn btn-primary" (click)="excluir(livro)">Excluir</a>
             </div>
