@@ -26,11 +26,11 @@
     },
     {
       "titulo": "Teste",
-      "autor": "Carlos",
-      "qtdPaginas": 311,
-      "descricao": "Testteteteteadaw",
-      "preco": 19.99,
-      "id": 5
+      "autor": "teste",
+      "qtdPaginas": 123,
+      "descricao": "lorem ipsum",
+      "preco": 123,
+      "id": 7
     }
   ]
 }

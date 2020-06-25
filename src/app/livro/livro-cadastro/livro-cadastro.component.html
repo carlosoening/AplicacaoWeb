@@ -1,29 +1,28 @@
 <div class="container">
     <h1>Cadastro de Livro</h1>
-<form>
-    <div class="form-group">
-      <label for="tituloInput">Título</label>
-      <input type="text" class="form-control" name="titulo" id="tituloInput" [(ngModel)]="livro.titulo">
-    </div>
-    <div class="form-group">
-        <label for="autorInput">Autor</label>
-        <input type="text" class="form-control" name="autor" id="autorInput" [(ngModel)]="livro.autor">
-    </div>
-    <div class="form-group">
-        <label for="qtdPaginasInput">Quantidade de Páginas</label>
-        <input type="number" class="form-control" name="qtdPaginas" id="qtdPaginasInput" [(ngModel)]="livro.qtdPaginas">
-    </div>
-    <div class="form-group">
-        <label for="precoInput">Preço</label>
-        <input type="number" class="form-control" name="preco" id="precoInput" [(ngModel)]="livro.preco">
-    </div>
-    <div class="form-group">
-      <label for="descricaoInput">Descrição</label>
-      <textarea class="form-control" name="descricao" id="descricaoInput" rows="3" [(ngModel)]="livro.descricao"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary" (click)="salvar()">Cadastrar</button>
-    &nbsp;
-    <button type="reset" class="btn btn-primary">Cancelar</button>
-</form>
-<p>{{ livro | json }}</p>
+    <form>
+        <div class="form-group">
+        <label for="tituloInput">Título</label>
+        <input type="text" class="form-control" name="titulo" id="tituloInput" [(ngModel)]="livro.titulo">
+        </div>
+        <div class="form-group">
+            <label for="autorInput">Autor</label>
+            <input type="text" class="form-control" name="autor" id="autorInput" [(ngModel)]="livro.autor">
+        </div>
+        <div class="form-group">
+            <label for="qtdPaginasInput">Quantidade de Páginas</label>
+            <input type="number" class="form-control" name="qtdPaginas" id="qtdPaginasInput" [(ngModel)]="livro.qtdPaginas">
+        </div>
+        <div class="form-group">
+            <label for="precoInput">Preço</label>
+            <input type="number" class="form-control" name="preco" id="precoInput" [(ngModel)]="livro.preco">
+        </div>
+        <div class="form-group">
+        <label for="descricaoInput">Descrição</label>
+        <textarea class="form-control" name="descricao" id="descricaoInput" rows="3" [(ngModel)]="livro.descricao"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="salvar()">Cadastrar</button>
+        &nbsp;
+        <button type="reset" class="btn btn-primary">Cancelar</button>
+    </form>
 </div>
