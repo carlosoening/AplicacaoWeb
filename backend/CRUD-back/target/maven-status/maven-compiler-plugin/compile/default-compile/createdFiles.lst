@@ -1,0 +1,9 @@
+livros\LivroService.class
+config\CrossOriginFilter.class
+livros\Livro.class
+novo\crud\back\resources\JavaEE8Resource.class
+auth\Usuario.class
+config\ConstraintViolationExceptionMapper.class
+config\ApplicationConfig.class
+auth\UsuarioService.class
+novo\crud\back\JAXRSConfiguration.class
