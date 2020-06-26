@@ -9,6 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 # Informações sobre o Backend
 
 unitName utilizada no persistence e standalone-full.xml: LivrosPU
+
 banco de dados utilizado: PostgreSQL 10
 
 ## Build
