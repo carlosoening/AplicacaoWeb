@@ -3,19 +3,19 @@
     <form>
         <div class="form-group">
         <label for="tituloInput">Nome</label>
-        <input type="text" class="form-control" name="nome" id="nomeInput" [(ngModel)]="usuario.nome">
+        <input type="text" class="form-control" maxlength="255" name="nome" id="nomeInput" [(ngModel)]="usuario.nome">
         </div>
         <div class="form-group">
             <label for="autorInput">Email</label>
-            <input type="email" class="form-control" name="email" id="emailInput" [(ngModel)]="usuario.email">
+            <input type="email" class="form-control" maxlength="255" name="email" id="emailInput" [(ngModel)]="usuario.email">
         </div>
         <div class="form-group">
             <label for="qtdPaginasInput">Username</label>
-            <input type="text" class="form-control" name="username" id="usernameInput" [(ngModel)]="usuario.username">
+            <input type="text" class="form-control" name="username" maxlength="255" id="usernameInput" [(ngModel)]="usuario.username">
         </div>
         <div class="form-group">
             <label for="precoInput">Senha</label>
-            <input type="password" class="form-control" name="senha" id="senhaInput" [(ngModel)]="usuario.senha">
+            <input type="password" class="form-control" maxlength="255" name="senha" id="senhaInput" [(ngModel)]="usuario.senha">
         </div>
         <button type="submit" class="btn btn-primary" (click)="salvar()">Cadastrar</button>
         &nbsp;
